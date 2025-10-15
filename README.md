@@ -15,7 +15,9 @@ This is a simple Python program using tkinter that will translate a sentence to 
  * Python 3.10+
  * OpenAI Python SDK(openai)
  * python-dotenv
- * Install Dependencies with(pip install openai python-dotenv)
+ * Install Dependencies with
+   ```bash
+   pip intall openai python-dotenv
 
 ## How to Run Program
  1. Create a .env file in project root and add your api key use .env.example as an example
