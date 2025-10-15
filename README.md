@@ -1,3 +1,5 @@
+#Fun Editor
+
 ##IMPORTANT:
 To use this program you must have an OpenAI API key.
 
