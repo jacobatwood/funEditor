@@ -1,8 +1,8 @@
 IMPORTANT:
- To use this program you must have an OpenAI API key.
+To use this program you must have an OpenAI API key.
 
 About:
- This is a simple Python program that will translate any sentence to Middle English(14th Century) Chaucer-Style using ChatGPT.
+This is a simple Python program that will translate any sentence to Middle English(14th Century) Chaucer-Style using ChatGPT.
 
 Features:
  * Translate English scentences to Middle English Chaucer-style
