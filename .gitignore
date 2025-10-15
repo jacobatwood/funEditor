@@ -1,0 +1,41 @@
+#Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+#Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# IDE / editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python build / dist
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Optional: VS Code settings
+.vscode/settings.json
