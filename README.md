@@ -4,11 +4,11 @@
 To use this program you must have an OpenAI API key.
 
 ## About:
-This is a simple Python program that will translate any sentence to Middle English(14th Century) Chaucer-Style using ChatGPT.
+This is a simple Python program using tkinter that will translate a sentence to Middle English(14th Century) Chaucer-Style using ChatGPT while typing.
 
 ## Features:
- * Translate English scentences to Middle English Chaucer-style
- * Command-line interface
+ * Translate English sentences to Middle English Chaucer-style
+ * Tkinter text editor interface
  * Uses OpenAI GPT-4o-mini model
 
 ## Requirements:
@@ -20,8 +20,8 @@ This is a simple Python program that will translate any sentence to Middle Engli
 ## How to Run Program
  1. Create a .env file in project root and add your api key use .env.example as an example
  2. Run the program using python main.py (may need to use python3 main.py)
- 3. Enter a sentence when prompted
+ 3. Begin Typing
 
 ## Notes:
- * translations vary due to ChatGPT's generative nature and languages flexibility
+ * Translations vary due to ChatGPT's generative nature and languages flexibility
  * Ensure API key remains secret and is never committed to GitHub

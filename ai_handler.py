@@ -2,11 +2,14 @@ from openai import OpenAI
 import os
 from dotenv import load_dotenv
 
+#retrieves the OpenAI API key from the environment
 load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-def stringTranslation(input, language):
-    prompt = f'Convert the following sentnce into {language} - "{input}" -- only output the text'
+
+##sends the string to ChatGPT for translation
+def string_translation(input, language):
+    prompt = f'Convert the following sentnce into {language}: {input}\nonly output the text without quotes or punctuation'
     response = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
